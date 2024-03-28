@@ -1,0 +1,21 @@
+/* Default styling for img-fluid */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .img-fluid {
+    max-width: 80%;
+    height: auto;
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 576px) {
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+}
